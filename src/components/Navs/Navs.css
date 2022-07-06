@@ -1,0 +1,28 @@
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 0px;
+}
+nav a{
+    color: #ab3550 !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav #login{
+    background-color: #ab3550;
+    border: 1px solid #ab3550;
+    box-sizing: border-box;
+    color: #fff !important;
+}
+nav #login:hover{
+    background-color: transparent;
+    color: #ab3550 !important;
+    transition: .2 ease-in-out;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
