@@ -56,7 +56,7 @@ const ListReservation = ({reservations}) => {
       <div className='row'>
       <div className='col-md-12 col-lg-12'>
       <h3>Explore our Stadiums</h3>
-      <p>Do you want to play Soccer in New York City?
+      <p>Do you want to play Soccer in New York City???
 This app that makes it possible for you to play Soccer in New York City,
 How, When and Where you want!
 
