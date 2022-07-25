@@ -19,7 +19,7 @@ function NewReservation({stadiums}) {
 
     const handleSubmit = (e) => {
       e.preventDefault()
-      const url = 'https://fast-inlet-21214.herokuapp.com/reservations/'
+      const url = process.env.REACT_APP_API_URL + 'reservations/'
       const opts = {
         method: 'POST',
         headers: {

@@ -11,7 +11,7 @@ const [detail, setDetail] = useState([])
 
 useEffect(() => {
   const accessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU4MDIzMDI0LCJpYXQiOjE2NTgwMjI3MjQsImp0aSI6IjBlMzJlMzZhNTQ5ODRmZWViYmNmMjU1MmQ3OGM4NmEzIiwidXNlcl9pZCI6MX0.q7z_f08BNTNJxkO_M1tToULz0Hx_JjHhvt5U1ic3uuk"
-  const url = `https://fast-inlet-21214.herokuapp.com/stadiums/${params.id}`
+  const url = process.env.REACT_APP_API_URL + `stadiums/${params.id}`
   const opts = {
               method: 'GET',
               headers: {
