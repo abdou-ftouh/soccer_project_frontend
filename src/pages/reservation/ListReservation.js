@@ -12,7 +12,7 @@ const ListReservation = ({reservations}) => {
   
   const deleteData = (id) => {
   
-    const url = process.env.REACT_APP_API_URL + 'reservations/'+`${id}`+''
+    const url = process.env.REACT_APP_API_URL + 'reservations/'+id+''
     const opts = {
       method: 'DELETE',
       headers: {

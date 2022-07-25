@@ -8,22 +8,10 @@ import a4 from '../../components/assets/a4.jpeg'
 import combine from '../../components/assets/combine_images.jpg'
 import './home.css'
 import ListStadiums from '../staduim/ListStadiums'
+import { Link } from 'react-router-dom'
 const Home = () => {
 
-  // const staduims= Data.map((stadium)=>{
-  //   return (
-  //     <div className='col-md-4'>
-  //       <div className='box'>
-  //       <img src={stadium.photo} alt='stadium'/>
-  //       <h5>Name: {stadium.name}</h5>
-  //       <h5>City:  {stadium.city}</h5>
-  //       <h6>Address: {stadium.address}</h6> 
-  //      </div>
-  //      <button><a href='#'>Reserve Now</a></button>
-  //     </div>
-      
-  //   )
-  // })
+
 
   return (
      <Fragment>
@@ -68,7 +56,7 @@ const Home = () => {
 Whatever the reason, come join this diverse sample of New York’s greatest people.
 
 Founded in 2010, NYC Footy is a collection of thousands of creative humans from all walks of life, coming together on and off the pitch to enjoy the beautiful game. .</p>
-              <button><a href='#'>Add my field</a></button>
+              <button><Link to={'/read'}>Add my field</Link></button>
             </div>
           </div>
         </div>
@@ -94,7 +82,7 @@ Games will give you a good run around without being too competitive. We welcome 
             <li>Choose a Game Near You </li>
             <li>Play Soccer, Meet New People, Enjoy </li>
           </ol>
-          <button><a href="#">Learn more</a></button>
+          <button><Link to={'/read'}>Learn more</Link></button>
           </div>
           <div className='col-md-6'>
            
